@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVIGATION BAR STARTS*/
+nav{
+    background:rgb(51, 55, 62);
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+/* NAVIGATION BAR ENDS */
+
+/* WEB LOGO */
+nav #logo img{
+    height:70px;
+    width: 120px;
+}
+
+/* WEB NAME */
+nav #name{
+    color:white;
+    font-size: 30px;
+    display: flex; 
+    align-items: center;   
+}
+nav .topic ul li {
+    display: inline;
+}
+nav .topic ul{
+    display: flex;
+    gap: 60px;
+}
+nav .topic ul a{
+    text-decoration: none;
+    color:white;
+}
+.login{
+    color:white;
+    margin-right: 40px;
+
+}
+
+/* HOME IMG */
+.homeimg{
+    background:url(./img1.jpg) repeat-x;
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 20px; */
+}
+.homeimg h1{
+    color:rgb(255, 255, 255);
+    font-size:70px;
+    padding-top: 90px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 550px;
+}
+
+/* TRAVEL MODE STARTS */
+.Travelmodes{
+    color: rgb(45, 49, 82);
+    font-size:30px;
+    text-align: center;
+    margin-top:35px;
+    font-family: 'Yatra One', system-ui;
+
+}
+
+.modes{
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+
+}
+
+.modes div{
+    height:200px;
+    width: 23%; 
+    margin-top:40px;
+    justify-content: center;
+    border-radius: 19px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: 'Merienda', cursive;
+    font-weight:bold;
+    
+}
+.modes div img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+/* TRAVEL MODES ENDS */
+
+/* TRAVEL PACKAGES STARTS */
+.Travelpack{
+    color: rgb(45, 49, 82);
+    font-size:30px;
+    text-align: center;
+    margin-top:40px;
+    font-family: 'Yatra One', system-ui;
+}
+
+/* .packimg{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} */
+
+.packimg {
+    height:200px;
+    width: 33%; 
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 130px;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-family: 'Merienda', cursive;
+    
+   
+}
+.packimg div img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* choice img */
+.choose{
+    background:url(./choose.jpg)repeat-x;
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.choose-contains{
+ display: flex;
+}
+
+.choose h2{
+    font-family: 'Sriracha', cursive;
+    color: rgb(21, 19, 19);
+    font-size: 35px;
+   
+    padding-top: 10px;
+}
+.choose i{
+    font-size: 40px;
+    
+    color: white;
+    
+}
+
+.choose-con1{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.choose p{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    width: 80%;
+    /* margin-left: 200px; */
+    text-align: justify;
+}
+
+.service{
+    color: rgb(45, 49, 82);
+    font-size:30px;
+    text-align: center;
+    margin-top:35px;
+    font-family: 'Yatra One', system-ui;
+}
+
+.serviceimg {
+    height:200px;
+    width: 50%; 
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 130px;
+    margin-top: 40px;
+    margin-left: 350px;
+   
+}
+.serviceimg div img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+.air{
+    color:rgb(7, 7, 7);
+    font-size:70px;
+    position: relative;
+    overflow: hidden;
+}
+.air img{
+    transition: all .3s ease-in-out;
+
+}
+
+.air i{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+    margin-top: ;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #1d2331;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
